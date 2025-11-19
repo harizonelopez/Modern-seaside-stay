@@ -9,7 +9,6 @@ This project showcases a fully responsive UI for a seaside stay, including galle
 
 - [Project Overview](#project-overview)
 - [Features](#features)
-- [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -41,8 +40,6 @@ Key objectives:
 - Smooth **animations and transitions**.  
 - Built with **React** and **Vite** for fast development and build times.  
 - Accessible and optimized for performance.  
-
----
 
 ---
 
