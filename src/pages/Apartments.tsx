@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -140,7 +139,7 @@ export default function Apartments() {
           
           {/* Decorative elements */}
           <div className="absolute bottom-0 right-0 w-1/2 h-1/2 opacity-10">
-            <div className="absolute bottom-0 right-0 w-64 h-64 rounded-full bg-primary/50 blur-3xl" />
+            <div className="absolute bottom-0 right-0 w-64 h-64 rounded-full bg-primary/50 blur-3xl"/>
             <div className="absolute top-10 right-40 w-48 h-48 rounded-full bg-sea-light blur-3xl" />
           </div>
         </section>
@@ -252,7 +251,7 @@ export default function Apartments() {
         </section>
       </main>
       
-      <Footer />
+      <Footer/>
     </div>
   );
 }

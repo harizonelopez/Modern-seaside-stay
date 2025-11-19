@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -92,9 +91,9 @@ export default function Contact() {
                     <div>
                       <h3 className="font-semibold mb-1">{t.contact.address}</h3>
                       <p className="text-muted-foreground">
-                        123 Seaside Boulevard<br />
-                        Costa Bella, 12345<br />
-                        Italy
+                        043 Westlands Nairobi<br />
+                        Muthaiga Avenue, 2901<br />
+                        Kenya
                       </p>
                     </div>
                   </div>
@@ -105,8 +104,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">{t.contact.phone}</h3>
-                      <p className="text-muted-foreground">+39 123 4567 890</p>
-                      <p className="text-muted-foreground">+39 098 7654 321 (Reservations)</p>
+                      <p className="text-muted-foreground">+254 769 405 130</p>
+                      <p className="text-muted-foreground">+254 758 443 575 (Reservations)</p>
                     </div>
                   </div>
                   
@@ -116,8 +115,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">{t.contact.email}</h3>
-                      <p className="text-muted-foreground">info@maresereno.com</p>
-                      <p className="text-muted-foreground">reservations@maresereno.com</p>
+                      <p className="text-muted-foreground">info@aladinhLuxury.com</p>
+                      <p className="text-muted-foreground">reservations@aladinhLuxury.com</p>
                     </div>
                   </div>
                   
@@ -164,7 +163,7 @@ export default function Contact() {
                             name="name"
                             value={formData.name}
                             onChange={handleInputChange}
-                            placeholder="John Doe" 
+                            placeholder="Harizone Lopez" 
                             required 
                           />
                         </div>
@@ -177,7 +176,7 @@ export default function Contact() {
                             type="email"
                             value={formData.email}
                             onChange={handleInputChange}
-                            placeholder="john@example.com" 
+                            placeholder="harizone@example.com" 
                             required 
                           />
                         </div>
@@ -191,7 +190,7 @@ export default function Contact() {
                             name="phone"
                             value={formData.phone}
                             onChange={handleInputChange}
-                            placeholder="+1 234 567 8900" 
+                            placeholder="+254 769 405 130" 
                           />
                         </div>
                         

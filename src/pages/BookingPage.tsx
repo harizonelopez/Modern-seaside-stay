@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { format, addDays, differenceInDays } from "date-fns";
 import { Link } from "react-router-dom";
@@ -780,7 +779,7 @@ export default function BookingPage() {
                             </div>
                             <div className="flex justify-between items-center">
                               <span>Cleaning fee</span>
-                              <span className="font-medium">$50</span>
+                              <span className="font-medium">20</span>
                             </div>
                             <div className="flex justify-between items-center">
                               <span>Service fee</span>
@@ -788,7 +787,7 @@ export default function BookingPage() {
                             </div>
                             <div className="flex justify-between items-center pt-4 border-t mt-4">
                               <span className="font-semibold">Total</span>
-                              <span className="font-bold text-xl">${totalPrice + 50 + 30}</span>
+                              <span className="font-bold text-xl">${totalPrice + 20 + 30}</span>
                             </div>
                           </>
                         )}
@@ -812,14 +811,12 @@ export default function BookingPage() {
                     <div className="flex justify-between">
                       <Button 
                         variant="outline"
-                        onClick={() => setCurrentStep(2)}
-                      >
+                        onClick={() => setCurrentStep(2)}>
                         Back
                       </Button>
                       <Button 
                         className="btn-primary"
-                        onClick={handleSubmitBooking}
-                      >
+                        onClick={handleSubmitBooking}>
                         Confirm Booking <Check className="ml-2 h-4 w-4" />
                       </Button>
                     </div>

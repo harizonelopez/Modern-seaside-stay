@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Users, Maximize, MapPin, Bath, Coffee, Wifi } from "lucide-react";

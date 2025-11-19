@@ -15,7 +15,7 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Sophia Martinez",
+    name: "Sophia Vergara",
     location: "New York, USA",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=faces",
     content: "My family and I had the most wonderful stay at MareSereno. The apartment was immaculate, with breathtaking sea views. The staff went above and beyond to make our vacation special.",
@@ -23,7 +23,7 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 2,
-    name: "Marco Rossi",
+    name: "Marco Russo",
     location: "Rome, Italy",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=faces",
     content: "Absolutely perfect location, steps away from the beach. The apartment had everything we needed and more. The modern amenities combined with the traditional coastal charm created a truly magical experience.",
@@ -31,8 +31,8 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 3,
-    name: "Emma Johnson",
-    location: "London, UK",
+    name: "Emma Watson",
+    location: "Nairobi, Kenya",
     avatar: "https://images.unsplash.com/photo-1569913486515-b74bf7751574?w=150&h=150&fit=crop&crop=faces",
     content: "We spent a wonderful week at this beachfront paradise. The sunrise views from our terrace were worth the trip alone. Exceptionally clean and beautifully designed spaces.",
     rating: 4
