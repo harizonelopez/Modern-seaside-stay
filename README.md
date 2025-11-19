@@ -36,7 +36,7 @@ Key objectives:
 
 - Fully responsive layout using **Tailwind CSS**.  
 - **Gallery section** with hover effects and optimized images.  
-- **Location section** with Google Maps embed.  
+- **Location section** with Google Maps embeded.  
 - Smooth **animations and transitions**.  
 - Built with **React** and **Vite** for fast development and build times.  
 - Accessible and optimized for performance.  
