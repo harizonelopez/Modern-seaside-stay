@@ -156,7 +156,6 @@ export default function Contact() {
                   />
                 </div>
                 </div>
-
               </div>
               
               {/* Contact Form */}
