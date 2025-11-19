@@ -44,10 +44,6 @@ Key objectives:
 
 ---
 
-## Demo
-
-You can view a live demo here: [Lovable Project Link](https://lovable.dev/projects/96f629c9-6031-4f68-8bd0-680a3c64b6e3)
-
 ---
 
 ## Technologies Used
