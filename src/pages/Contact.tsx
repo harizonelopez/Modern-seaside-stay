@@ -135,17 +135,28 @@ export default function Contact() {
                   </div>
                 </div>
                 
-                <div className="aspect-video rounded-xl overflow-hidden">
-                  <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.03606358136!2d14.165818971864153!3d40.85529294646443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b0a3c328d896b%3A0x309e11f99628150!2sGulf%20of%20Naples!5e0!3m2!1sen!2sus!4v1628613152777!5m2!1sen!2sus" 
-                    width="100%" 
-                    height="100%" 
-                    style={{ border: 0 }} 
-                    allowFullScreen 
+                {/* Map title */}
+                <div className="glass-card p-6">
+                <div className="container mx-auto">
+                  <div className="text-center max-w-3xl mx-auto mb-12">
+                    <h2 className="text-3xl font-bold mb-4">Our Location</h2>
+                    <p className="text-muted-foreground">
+                      We welcome you to our office at Sarit Centre Mall, Westlands, Nairobi. Locate us easily using the map below.                    </p>
+                  </div>
+                </div>
+                {/* Embedded google map */}
+                <div className="aspect-video rounded-xl overflow-hidden shadow-md">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15990.123456789!2d36.811667!3d-1.266944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1a2123456789%3A0xabcdef1234567890!2sWestlands%2C%20Nairobi!5e0!3m2!1sen!2ske!4v0000000000000!5m2!1sen!2ske"
+                    className="w-full h-full"
+                    style={{ border: 0 }}
+                    allowFullScreen
                     loading="lazy"
-                    title="Location Map"
+                    title="Westlands, Nairobi Map"
                   />
                 </div>
+                </div>
+
               </div>
               
               {/* Contact Form */}
