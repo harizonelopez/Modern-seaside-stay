@@ -101,35 +101,50 @@ export default function Amenities() {
         })}
         
         {/* Gallery Section */}
-        <section className="py-16">
-          <div className="container">
-            <div className="text-center max-w-3xl mx-auto mb-12">
-              <h2 className="text-3xl font-bold mb-4">
-                {t.gallery.title}
-              </h2>
-              <p className="text-muted-foreground">
-                {t.gallery.subtitle}
-              </p>
+          <section className="py-16">
+            <div className="container">
+              {/* Section Title */}
+              <div className="text-center max-w-3xl mx-auto mb-12">
+                <h2 className="text-3xl font-bold mb-4">{t.gallery.title}</h2>
+                <p className="text-muted-foreground">{t.gallery.subtitle}</p>
+              </div>
+
+              {/* Gallery Grid */}
+              {(() => {
+                const images = [
+                  "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=400&fit=crop",
+                  "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=400&fit=crop",
+                  "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=400&h=400&fit=crop",
+                  "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=400&h=400&fit=crop",
+                  "https://images.unsplash.com/photo-1487014679447-9f8336841d58?w=400&h=400&fit=crop",
+                  "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=400&h=400&fit=crop",
+                  "https://images.unsplash.com/photo-1496412705862-e0088f16f791?w=400&h=400&fit=crop",
+                  "https://images.unsplash.com/photo-1560347876-aeef00ee58a1?w=400&h=400&fit=crop"
+
+                ];
+
+                return (
+                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    {images.map((img, index) => (
+                      <div
+                        key={index}
+                        className="aspect-square rounded-lg overflow-hidden shadow-md transition-transform hover:scale-105"
+                      >
+                        <img
+                          src={img}
+                          alt={`Amenity ${index + 1}`}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                );
+              })()}
             </div>
-            
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {Array.from({ length: 8 }).map((_, index) => (
-                <div 
-                  key={index} 
-                  className="aspect-square rounded-lg overflow-hidden shadow-md transition-transform hover:scale-105"
-                >
-                  <img 
-                    src={`https://images.unsplash.com/photo-${1550000000000 + index * 100000}?w=400&h=400&fit=crop`}
-                    alt={`Amenity ${index + 1}`}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+          </section>
+
       </main>
-      
       <Footer />
     </div>
   );

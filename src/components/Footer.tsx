@@ -99,7 +99,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-border pt-8 mt-8 text-center text-muted-foreground">
-          <p>&copy; {currentYear} Harizone. {t.footer.allRights}</p>
+          <p>&copy; {currentYear} Dev_Harizone. {t.footer.allRights}</p>
         </div>
       </div>
     </footer>
