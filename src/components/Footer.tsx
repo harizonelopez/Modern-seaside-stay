@@ -17,15 +17,15 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Facebook size={20} />
+                <Facebook size={20}/>
                 <span className="sr-only">Facebook</span>
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Instagram size={20} />
+                <Instagram size={20}/>
                 <span className="sr-only">Instagram</span>
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                <Twitter size={20} />
+                <Twitter size={20}/>
                 <span className="sr-only">Twitter</span>
               </a>
             </div>
