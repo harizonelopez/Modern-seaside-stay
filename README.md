@@ -46,7 +46,7 @@ Key objectives:
 ## Demo
 
 You can view the live project here:  
-🌐 [Modern Seaside Stay Live](https://modern-seaside-stay-roan.vercel.app/)
+🌐 [Modern Seaside Stay](https://modern-seaside-stay-roan.vercel.app/)
 
 **Highlights of the live demo:**
 - Fully responsive layout across desktop, tablet, and mobile  
