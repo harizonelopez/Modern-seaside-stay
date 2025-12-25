@@ -16,15 +16,15 @@ export default function Footer() {
               {t.footer.description}
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.facebook.com/share/15qqN82Dn9" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                 <Facebook size={20}/>
                 <span className="sr-only">Facebook</span>
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.instagram.com/aladinhdaddy" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                 <Instagram size={20}/>
                 <span className="sr-only">Instagram</span>
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://x.com/harison_lo57854?t=AIsDSO_WDAde2VXqqqQDdQ&s=09" target="_blank" className="text-muted-foreground hover:text-primary transition-colors">
                 <Twitter size={20}/>
                 <span className="sr-only">Twitter</span>
               </a>
@@ -67,7 +67,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 mr-2 text-primary" />
-                <span className="text-muted-foreground">+254 769 405 130</span>
+                <span className="text-muted-foreground">0769 405 130</span>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 mr-2 text-primary" />
@@ -99,7 +99,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-border pt-8 mt-8 text-center text-muted-foreground">
-          <p>&copy; {currentYear} Dev_Harizone. {t.footer.allRights}</p>
+          <p>&copy; {currentYear} Dev_Aladinh. {t.footer.allRights}</p>
         </div>
       </div>
     </footer>

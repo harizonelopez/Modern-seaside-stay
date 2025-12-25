@@ -104,8 +104,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">{t.contact.phone}</h3>
-                      <p className="text-muted-foreground">+254 769 405 130</p>
-                      <p className="text-muted-foreground">+254 758 443 575 (Reservations)</p>
+                      <p className="text-muted-foreground">0769 405 130</p>
+                      <p className="text-muted-foreground">0758 443 575 (Reservations)</p>
                     </div>
                   </div>
                   
@@ -200,7 +200,7 @@ export default function Contact() {
                             name="phone"
                             value={formData.phone}
                             onChange={handleInputChange}
-                            placeholder="+254 769 405 130" 
+                            placeholder="0769 405 130" 
                           />
                         </div>
                         
