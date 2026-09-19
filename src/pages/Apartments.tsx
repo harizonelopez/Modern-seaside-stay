@@ -116,7 +116,7 @@ export default function Apartments() {
     setFilteredApartments(result);
   }, [capacityFilter, locationFilter, priceRange]);
   
-  // Get unique locations for filter
+  // Get unique locations for the filter
   const locations = ["all", ...new Set(allApartments.map(apt => apt.location))];
   
   return (
